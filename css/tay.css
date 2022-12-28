@@ -1,0 +1,22 @@
+/*
+ * Tay's Nail and Spa style sheet
+ */
+
+@import url('/css/mobile.css') (orientation:portrait);
+@import url('/css/desktop.css') (orientation:landscape);
+@import url('/css/common.css');
+
+@font-face {
+  font-family: 'Raspoutine Classic';
+  src: local('Raspoutine Classic'),
+       local('Raspoutine-Classic'),
+       url('/static/RaspoutineClassic_TB.otf');
+}
+
+/* Mozilla Compatibility */
+
+@-moz-document url-prefix() {
+  td.top {
+    height: 100px;
+  }
+}

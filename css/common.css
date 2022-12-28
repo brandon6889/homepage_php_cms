@@ -1,0 +1,334 @@
+/*
+ * Tay's Nail and Spa style sheet
+ */
+
+* {
+  z-index:2;
+}
+
+body {
+  background: #FFFFFF url('/static/bg_flowers.jpg') no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  z-index: 0;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+table.mainTable {
+  vertical-align: top;
+  border: 0px;
+  border-spacing: 0px;
+  padding: 2% 0px 3% 0px;
+  margin: 0px auto;
+  z-index: 3;
+  height: 100%;
+}
+
+/* Firefox compat */
+@media screen and (min-width: 1500px) and (max-width: 1899px) {
+td.top {
+  min-height: 140px;
+}
+}
+@media screen and (min-width: 1900px) and (max-width: 2199px) {
+td.top {
+  min-height: 160px;
+}
+}
+@media screen and (min-width: 2200px) and (max-width: 2599px) {
+td.top {
+  min-height: 180px;
+}
+}
+@media screen and (min-width: 2600px) and (max-width: 2999px) {
+td.top {
+  min-height: 210px;
+}
+}
+@media screen and (min-width: 3000px) and (max-width: 3699px) {
+td.top {
+  min-height: 270px;
+}
+}
+@media screen and (min-width: 3700px) {
+td.top {
+  min-height: 330px;
+}
+}
+
+td.top {
+  height: 4%;
+  width: 100%;
+  background-image:url('/static/logo.png');
+  background-position:top left;
+  background-repeat:no-repeat;
+  display: inline-block;
+  position: relative;
+}
+
+div.top_spacer {
+  margin-top: 15%;
+}
+
+td.navigation {
+  height: 4%;
+}
+
+td.bottom {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div {
+  padding: 0px;
+}
+
+div.top_hours {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  text-align: right;
+  font-family: 'Raspoutine Classic';
+  line-height: 165%;
+}
+
+nav {
+  margin-top: 3%;
+  width: 100%;
+  /*margin-left: 10%;
+  margin-right: 10%;*/
+  text-align: center;
+  z-index: 5;
+}
+
+nav ul {
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  float: left;
+  width: 20%;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  font-family: 'Arial';
+  color: #9c30ac;
+}
+
+nav li a.currentpage {
+  -webkit-text-fill-color: #9c30ac;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ea97cd;
+}
+
+div.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0px auto -2.5em;
+}
+
+div.content {
+  width: 84%;
+  margin: 0 auto;
+}
+
+div.boldtext {
+  font-family: 'Raspoutine Classic';
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 4%;
+}
+
+div.bluetext {
+  padding-top: 1%;
+  font-family: 'Raspoutine Classic';
+  font-weight: bold;
+  font-style: italic;
+  color: blue;
+}
+
+div.float_left {
+  width: 100%;
+  text-align: left;
+  float: left;
+}
+
+div.float_right {
+  width: 100%;
+  text-align: right;
+  float: right;
+}
+
+div.footer {
+  /*position: absolute;
+  bottom: 0px;*/
+  width: 100%;
+  line-height: 2.5em;
+  height: 2.5em;
+  background-color: #b969c5;
+  text-align: center;
+  font-family: 'Raspoutine Classic';
+  font-size: 100%;
+  z-index: 4;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  box-shadow: 0px -1px 0px rgba(0,0,0,0.6);
+}
+
+a.flower_left {
+  min-height:100%;
+  position:absolute;
+  z-index:1;
+  top:0px;
+  left:0px;
+  background-position:top left;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  opacity: 0.45;
+  filter: alpha(opacity=45);
+}
+
+a.flower_right {
+  width:25%;
+  min-height:50%;
+  position:absolute;
+  z-index: 1;
+  bottom:0em;
+  right:0em;
+  background-position:bottom right;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+div.image {
+  text-align: center;
+  padding: 4% 3% 3% 3%;
+}
+
+img {
+  width: 80%;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.4);
+  opacity: 0.93;
+  filter: alpha(opacity=93);
+}
+
+div.couponContainer {
+  display: block;
+  text-align: center;
+  float: left;
+  width: 100%;
+}
+
+div.coupon {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  background: transparent url('/static/coupon_bg_default.png') center top no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  padding: 0px;
+}
+
+div.coupon_spacer {
+  margin-top: 72%;
+}
+
+div.coupon_content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  max-width: 80%;
+  min-width: 80%;
+}
+
+div.coupon_content h1 {
+  font-style: italic;
+}
+
+div.coupon_content p {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: 'Arial';
+}
+
+p.blueline {
+  text-align: center;
+  color: #323777;
+  font-family: 'Raspoutine Classic';
+}
+
+div.services_arrow {
+  z-index: 6;
+  position: absolute;
+  top: 55%;
+  height: 30%;
+  background-image:url('/static/service_nav_up.png');
+  background-position:top left;
+  background-repeat:no-repeat;
+  background-size: 100%;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+div.services_arrow:hover {
+  background-image:url('/static/service_nav_down.png');
+}
+
+div.services_arrow_right {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+div.services {
+  text-align: center;
+  height: 100%;
+}
+
+div.gallery_img {
+  margin: 1em 0.5em;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  padding: 0px;
+}
+
+div.galleria-fscr {
+  min-width: 29px;
+  max-width: 29px;
+  min-height: 29px;
+  background-image: url('/static/fullscreen.png');
+  background-repeat: no-repeat;
+  background-position: 8px 7px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

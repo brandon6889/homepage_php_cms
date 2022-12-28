@@ -1,0 +1,222 @@
+* {
+  font-family: 'Arial';
+}
+
+body {
+  background: #FFFFFF url('/static/bg_flowers.jpg') no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  z-index: 0;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+textarea {
+  resize: none;
+}
+
+table.mainTable {
+  min-height: 100%;
+  border-spacing: 0px;
+}
+
+td.left {
+  background-color: rgba(185,105,197,0.8);/*#b969c5;*/
+  min-width: 280px;
+  width: 280px;
+  min-height: 100%;
+  vertical-align: top;
+  border-right-style: solid;
+  border-right-color: #9d42ab;
+  border-right-width: 2px;
+}
+
+td.left img {
+  width: 240px;
+  height: 72px;
+  padding: 20px 0px 60px 20px;
+}
+
+td.left ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+td.left ul li {
+  display: block;
+  position: relative;
+  padding: 15px 0px 15px 40px;
+  cursor: pointer;
+}
+
+td.left ul li a {
+  display: inline-block;
+  font-size: 1.6em;
+  text-decoration: none;
+  color: white;
+  padding: 0px 15px 3px 15px;
+  width: 170px;
+}
+
+td.left ul li a:hover {
+  /*color: #b969c5;*/
+  background-color: #d690e0;
+  -moz-border-radius: 50px / 25px;
+  -webkit-border-radius: 50px / 25px;
+  border-radius: 50px / 25px;
+}
+
+td.right {
+  min-width: 600px;
+  width: 600px;
+  min-height: 100%;
+  padding-left: 30px;
+  padding-top: 30px;
+  vertical-align: top;
+}
+
+td.right table.listTable {
+  width: 100%;
+  border-collapse: separate;
+  border-style: solid;
+}
+
+td.right table.listTable td {
+  position: relative;
+}
+
+td.right table.listTable img.full {
+  height: 120px;
+}
+
+td.right table.listTable img.thumb {
+  height: 40px;
+}
+
+td.right table.listTable img.service {
+  height: 200px;
+}
+
+td.right table.listTable table {
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+}
+
+td.right table.listTable table img {
+  width: 24px;
+  height: 24px;
+}
+
+form.login {
+  padding-left: 130px;
+  max-width: 320px;
+}
+
+form.coupon {
+  padding-left: 70px;
+  max-width: 440px;
+}
+
+form.coupon div.row {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+form.coupon div.row input {
+  width: 240px;
+  margin-left: 10px;
+  position: absolute;
+  right: 20px;
+}
+
+form.services {
+  width: 100%;
+}
+
+form.services input.top {
+  width: 240px;
+}
+
+form.services textarea {
+  width: 275px;
+}
+
+form.services input.bottom {
+  width: 550px;
+}
+
+div.couponContainer {
+  display: block;
+  text-align: left;
+  float: left;
+  width: 100%;
+}
+
+div.coupon {
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  background: transparent url('/static/coupon_bg_default.png') center top no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
+  padding: 0px;
+  margin: 0.8em 1.3em;
+  width: 50%;
+  border-spacing: 0px;
+}
+
+div.coupon_spacer {
+  padding: 0px;
+  display: block;
+  margin-top: 72%;
+}
+
+div.coupon_content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  max-width: 80%;
+  min-width: 80%;
+  padding: 0px;
+  display: block;
+}
+
+div.coupon_content h1 {
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+div.coupon_content p {
+  font-style: italic;
+  font-size: 1em;
+  line-height: 150%;
+}
+
+div.deleteCoupon {
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
+}
+
+form.contact div.row {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+form.contact div.row input,form.contact div.row textarea {
+  width: 240px;
+  margin-left: 10px;
+  position: absolute;
+  right: 20px;
+}

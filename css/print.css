@@ -1,0 +1,72 @@
+/*
+ * Tay's Nail and Spa style sheet
+ *
+ * Note that A4 paper is 420mm by 297mm
+ */
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  height: 85mm;
+  width: 100mm;
+  padding: 5mm 7mm;
+}
+
+body div {
+  border-style: dashed;
+  width: 100%;
+  height: 100%;
+  padding: 5mm 10mm;
+  position: relative;
+  background-image: url('/static/logo.png');
+  background-position: 80mm 6mm;
+  background-repeat: no-repeat;
+  background-size: 34.3mm 10.25mm;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-size: 18pt;
+  padding-bottom: 10mm;
+  max-width: 67mm;
+}
+
+p {
+  font-family: 'Arial';
+  font-size: 14pt;
+}
+
+img {
+  position: absolute;
+  bottom: 5mm;
+  left: 5mm;
+  height: 5.5mm;
+}
+
+body div a {
+  position: absolute;
+  bottom: 5mm;
+  right: 5mm;
+  font-family: 'Arial';
+  font-style: italic;
+  font-size: 12pt;
+}
+
+a.printButton {
+  position: relative;
+  top: 5mm;
+  left: 89mm;
+}
+
+@media print {
+a.printButton {
+  display: none;
+}
+}

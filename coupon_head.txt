@@ -1,0 +1,20 @@
+Keys: DELETED]][[TITLE]][[SHORTTEXT]][[LONGTEXT]][[EXPIRES]][[CODE
+
+DELETED:
+ 0 for false
+ 1 for true
+
+TITLE:
+ Title of coupon.
+
+SHORTTEXT:
+ First paragraph of coupon. Shown on website.
+
+LONGTEXT:
+ Second paragraph of coupon. Shown on printout.
+
+EXPIRES:
+ Expiration date.
+
+CODE:
+ Barcode value for PoS integration.

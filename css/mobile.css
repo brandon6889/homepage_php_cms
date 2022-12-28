@@ -1,0 +1,170 @@
+/*
+ * Tay's Nail and Spa style sheet for mobile devices
+ */
+
+table.mainTable {
+  width: 96%;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 0.22em solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.22em solid rgba(255, 255, 255, 0.3);
+}
+
+a.flower_left {
+  width:9%;
+  background-image:url('/static/bg_left_mobile.png');
+}
+
+a.flower_right {
+  background-image:url('/static/bg_right2.png');
+}
+
+td.top {
+  background-size: 48%;
+}
+
+div.top_hours {
+  font-size: 1.5em;
+}
+
+div.coupon_content h1 {
+  font-size: 2.25vw;
+}
+
+div.coupon_content p {
+  font-size: 1.85vw;
+}
+
+nav {
+  padding-bottom: 12%;
+}
+
+@media screen and (min-width: 1080px) {
+nav li a {
+  font-size: 250%;
+}
+
+div.boldtext {
+  font-size: 2em;
+}
+
+div.bluetext {
+  font-size: 2.1em;
+}
+
+div.services_arrow {
+  width: 17%;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1079px) {
+nav li a {
+  font-size: 220%;
+}
+
+p {
+  line-height: 150%;
+  font-size: 170%;
+}
+
+div.boldtext {
+  font-size: 1.9em;
+}
+
+div.bluetext {
+  font-size: 2em;
+}
+
+div.services_arrow {
+  width: 15%;
+}
+}
+
+@media screen and (min-width: 641px) and (max-width: 799px) {
+nav li a {
+  font-size: 170%;
+}
+
+p {
+  line-height: 130%;
+  font-size: 170%;
+}
+
+div.boldtext {
+  font-size: 1.5em;
+}
+
+div.bluetext {
+  font-size: 1.6em;
+}
+
+div.services_arrow {
+  width: 13%;
+}
+}
+
+@media screen and (max-width: 640px) {
+nav li a {
+  font-size: 125%;
+}
+
+p {
+  line-height: 150%;
+  font-size: 110%;
+}
+
+div.boldtext {
+  font-size: 1.3em;
+}
+
+div.bluetext {
+  font-size: 1.4em;
+}
+
+div.services_arrow {
+  width: 12%;
+}
+}
+
+div.boldtext {
+  padding: 2.5% 0%;
+}
+
+div.bluetext {
+  padding-bottom: 10%;
+}
+
+div.coupon {
+  margin: 1em 0.5em;
+  width: 45%;
+}
+
+td.bottom {
+  padding-bottom: 15%;
+  overflow: hidden;
+}
+
+div.services_arrow_left {
+  left: 5%;
+}
+
+div.services_arrow_right {
+  right: 5%;
+}
+
+div.services {
+  width:80%;
+  padding-left: 10%;
+}
+
+div.gallery_img {
+  width: 60%;
+}
+
+div.galleria {
+  min-height: 400px;
+  max-height: 1000px;
+}

@@ -1,0 +1,105 @@
+/*
+ * Tay's Nail and Spa style sheet for landscape devices
+ */
+
+table.mainTable {
+  width: 55%;
+}
+
+td.top {
+  background-size: 42%;
+}
+
+td.bottom {
+  padding-bottom: 2em;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 0.1em solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.1em solid rgba(255, 255, 255, 0.3);
+}
+
+a.flower_left {
+  width:26%;
+  height: 100%;
+  background-image:url('/static/bg_left.png');
+}
+
+a.flower_right {
+  height: 100%;
+  background-image:url('/static/bg_right2.png');
+}
+
+nav li a {
+  font-size: 140%;
+}
+
+@media screen and (min-width: 1400px) and (min-height: 802px) {
+p {
+  line-height: 150%;
+  font-size: 1.1em;
+}
+}
+
+@media screen and (max-width: 1399px) and (max-height: 801px) {
+p {
+  line-height: 130%;
+  font-size: 1.03em;
+}
+}
+
+div.boldtext {
+  font-size: 1.05em;
+}
+
+div.bluetext {
+  font-size: 1.12em;
+}
+
+div.coupon {
+  margin: 0.8em 1.3em;
+  width: 37%;
+}
+
+div.services_arrow {
+  width: 4%;
+}
+
+div.services_arrow_left {
+  left: 23%;
+}
+
+div.services_arrow_right {
+  right: 23%;
+}
+
+div.services {
+  width: 100%;
+}
+
+div.gallery_img {
+  width: 45%;
+}
+
+div.top_hours {
+  font-size: 1.1em;
+}
+
+div.coupon_content h1 {
+  font-size: 1.3vw;
+}
+
+div.coupon_content p {
+  font-size: 0.90vw;
+}
+
+nav {
+  padding-bottom: 6%;
+}
+
+div.galleria {
+  min-height: 400px;
+  max-height: 400px;
+}
